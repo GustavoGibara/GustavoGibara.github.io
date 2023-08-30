@@ -1,0 +1,47 @@
+.rodapé{
+    background-color: black;
+    position: relative;
+}
+
+.rodapé::before{
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 200px;
+    background: url('/img/detalhe.svg') no-repeat center;
+    top: -100px;
+    left: 20px;
+}
+
+.rodapé-conteudo{
+    color: rgb(206, 204, 204);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 200px 40px 20px 40px;
+    gap: 200px 10px;
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.rodapé-conteudo p{
+    align-self: center;
+    text-align: left;
+    max-width: 40ch;
+    line-height: 2.5rem;
+}
+
+.contato{
+    display: grid;
+    font-size: 3rem;
+    gap: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.mensagem{
+    font-size: 1.6rem;
+}
+
+.direito{
+    font-size: 1.2rem;
+}

@@ -1,0 +1,33 @@
+body{
+    margin: 0px;
+    font-family: Fira Sans;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+a{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.subtitulo{
+    text-transform: uppercase;
+    word-break: break-all;
+    max-width: 4ch;
+    font-size: 11.5rem;
+    line-height: 1;
+}
