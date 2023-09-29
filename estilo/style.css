@@ -1,6 +1,6 @@
-@import '/estilo/global.css';
-@import '/estilo/cabecalho.css';
-@import '/estilo/apresentação.css';
-@import '/estilo/experiencia.css';
-@import '/estilo/formação.css';
-@import '/estilo/rodapé.css';
+@import './global.css';
+@import './header.css';
+@import './introducao.css';
+@import './experiencia.css';
+@import './formacao.css';
+@import './footer.css';
